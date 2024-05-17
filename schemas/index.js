@@ -6,7 +6,7 @@ const connect = () => {
   mongoose
     .connect(
       // 빨간색으로 표시된 부분은 대여한 ID, Password, 주소에 맞게끔 수정해주세요!
-      'mongodb+srv://jhso5041:!Jinho0050411@express-mongo.ufuuq6i.mongodb.net/?retryWrites=true&w=majority&appName=express-mongo',
+      '',
       {
         dbName: 'todo_memo', // todo_memo 데이터베이스명을 사용합니다.
       }
